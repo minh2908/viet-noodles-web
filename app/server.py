@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1ydtlaC2XFRE4JEQJAjdf8bKNEhKi9x-w'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1ZltHHasY-edq38i2_LiDObzLXVwBFPhD'
 export_file_name = 'noodles_export.pkl'
 
 classes = ['bún chả - bún nem - bún thịt nướng', 'bún đậu', 'bún ngan', 'bún ốc','bún riêu','bún thang','miến lươn','phở bò','phở cuốn','phở gà','phở xào']

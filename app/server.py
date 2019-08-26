@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1ZjHaxgQlICUCDwwhuCN1bf_BKzQA6GFC'
-export_file_name = 'golf_export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1ydtlaC2XFRE4JEQJAjdf8bKNEhKi9x-w'
+export_file_name = 'noodles_export.pkl'
 
-classes = ['golf', 'table_tennis', 'tennis']
+classes = ['bún chả - bún nem - bún thịt nướng', 'bún đậu', 'bún ngan', 'bún ốc','bún riêu','bún thang','miến lươn','phở bò','phở cuốn','phở gà','phở xào']
 path = Path(__file__).parent
 
 app = Starlette()
